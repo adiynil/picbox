@@ -1,0 +1,198 @@
+* {
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB,
+    Microsoft YaHei, "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+}
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+.el-menu-item a {
+  text-decoration: none;
+  color: inherit;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main {
+  margin: 10px 0;
+}
+ul[data-v-4b6440a7] {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li[data-v-4b6440a7] {
+  margin-bottom: 10px;
+  color: #616161;
+}
+ul li span[data-v-4b6440a7] {
+  float: right;
+}
+.gayhub[data-v-4b6440a7] {
+  width: 100%;
+}
+.tips[data-v-4b6440a7] {
+  margin: 0 0 20px;
+  font-size: 14px;
+  color: #616161;
+}
+.form[data-v-4b6440a7] {
+  margin: 0 0 10px;
+}
+.form_label[data-v-4b6440a7] {
+  text-align: center;
+  font-weight: 400;
+}
+.content[data-v-4b6440a7] {
+  margin-bottom: 50px;
+}
+.avatar[data-v-5d8aa38e] {
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.bold[data-v-5d8aa38e] {
+  font-weight: 700;
+}
+.el-row + .el-row[data-v-5d8aa38e] {
+  margin-top: 10px;
+}
+.el-col[data-v-5d8aa38e] {
+  margin-bottom: 10px;
+}
+.span[data-v-5d8aa38e] {
+  float: right;
+}
+.step[data-v-2d4e7096] {
+  margin: 10px 0;
+}
+.el-row + .el-row[data-v-2d4e7096] {
+  margin-top: 20px;
+}
+.upload_trigger[data-v-2d4e7096] {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  border: 1px dashed rgba(64, 160, 255, 0.5);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.upload_trigger[data-v-2d4e7096]:active,
+.upload_trigger[data-v-2d4e7096]:hover {
+  border-color: #409eff;
+}
+.upload_trigger:active i[data-v-2d4e7096],
+.upload_trigger:hover i[data-v-2d4e7096] {
+  color: #409eff;
+}
+.upload_trigger i[data-v-2d4e7096] {
+  position: absolute;
+  font-size: 70px;
+  line-height: 50px;
+  color: rgba(64, 160, 255, 0.5);
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.upload_trigger span[data-v-2d4e7096] {
+  position: absolute;
+  color: #606266;
+  font-size: 14px;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.imglist[data-v-2d4e7096] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.imglist .item[data-v-2d4e7096] {
+  list-style: none;
+  width: calc(20% - 0.65rem);
+  margin: 0.25rem 0.25rem;
+  border: 1px solid #eee;
+  text-decoration: none;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.imglist .img:active .action[data-v-2d4e7096],
+.imglist .img:active .shade[data-v-2d4e7096],
+.imglist .img:hover .action[data-v-2d4e7096],
+.imglist .img:hover .shade[data-v-2d4e7096] {
+  opacity: 1;
+  display: block;
+}
+.imglist .img[data-v-2d4e7096] {
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+  position: relative;
+}
+.imglist .img .action[data-v-2d4e7096] {
+  color: #fff;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  display: none;
+  z-index: 10;
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
+}
+.imglist .img .action span[data-v-2d4e7096] {
+  opacity: 1;
+  cursor: pointer;
+}
+.imglist .img span + span[data-v-2d4e7096] {
+  margin-left: 10px;
+}
+.imglist .img .shade[data-v-2d4e7096] {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 2;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+}
+.imglist .img img[data-v-2d4e7096] {
+  display: inline-block;
+  width: 150%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+.imglist .info p[data-v-2d4e7096] {
+  text-align: center;
+  font-size: 14px;
+  line-height: 0;
+}
+@media screen and (max-width: 800px) and (min-width: 600px) {
+  .imglist .item[data-v-2d4e7096] {
+    width: calc(25% - 0.65rem);
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 480px) {
+  .imglist .item[data-v-2d4e7096] {
+    width: calc(33.33333% - 0.65rem);
+  }
+}
+@media screen and (max-width: 480px) {
+  .imglist .item[data-v-2d4e7096] {
+    width: calc(50% - 0.65rem);
+  }
+}
+@media screen and (max-width: 333px) {
+  .imglist .item[data-v-2d4e7096] {
+    width: calc(100% - 0.65rem);
+  }
+}
