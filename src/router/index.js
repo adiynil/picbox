@@ -19,7 +19,7 @@ const routes = [
 		name: 'home',
 		component: home,
 		meta:{
-			title: '首页 - GitHub工具箱'
+			title: '首页 - PicBox'
 		}
 	},
 	{
@@ -27,7 +27,7 @@ const routes = [
 		name: 'user',
 		component: user,
 		meta:{
-			title: '基本信息 - GitHub工具箱'
+			title: '基本信息 - PicBox'
 		}
 	},
 	{
@@ -35,7 +35,7 @@ const routes = [
 		name: 'commits',
 		component: commits,
 		meta:{
-			title: '提交记录 - GitHub工具箱'
+			title: '提交记录 - PicBox'
 		}
 	},
 	{
@@ -43,7 +43,7 @@ const routes = [
 		name: 'imghost',
 		component: imghost,
 		meta:{
-			title: '图床 - GitHub工具箱'
+			title: '图床 - PicBox'
 		}
 	}
   ]

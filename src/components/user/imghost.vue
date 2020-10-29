@@ -506,7 +506,7 @@ export default {
 		async upload(img){
 			let url = this.getRawUrl(img)
 			let token = this.getToken()
-			let message = `upload ${img.name} from MixBox`
+			let message = `upload ${img.name} from PicBox`
 			let data = {
 				message: message
 			}
@@ -559,7 +559,7 @@ export default {
 			let url = this.getRawUrl(img)
 			let token = this.getToken()
 			let data = {
-				message: `delete ${img.name} from Mixbox`,
+				message: `delete ${img.name} from PicBox`,
 				sha: img.sha
 			}
 			this.$axios({
